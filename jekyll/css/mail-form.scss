@@ -1,0 +1,48 @@
+---
+---
+@import 'libs/skel';
+
+@include skel-breakpoints((
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1280px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 480px)'
+	));
+
+
+#cta {
+    #registration.inner {
+        @include vendor('flex-wrap', 'wrap');
+        header {
+            width: 100%;
+        }
+        .actions {
+            width: 100%;
+            @include vendor('display', 'flex');
+            @include vendor('flex-wrap', 'wrap');
+            #email {
+                width: 65%;
+                margin-right: 2em;
+                border: 1px solid #ffff;
+            }
+            #send {
+                width: 30%;
+            }
+            .note {
+                font-size: 0.7em;
+                line-height: 1.5em;
+            }
+
+            @include breakpoint(medium) {
+                #email, #send {
+                    width: 100%;                    
+                    margin-right: auto;
+                }
+                #email {
+                    margin-bottom: 1.5em;
+                }
+            }
+        }
+    }    
+}

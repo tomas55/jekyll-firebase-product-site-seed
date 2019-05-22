@@ -1,0 +1,17 @@
+<!-- Three -->
+<section id="three" class="wrapper style3 special">
+    <div class="inner">
+        <header class="major">
+            <h2>{{ site.data.features.title }}</h2>
+            <p>{{ site.data.features.description }}</p>
+        </header>
+        <ul class="features">
+            {% for feature in site.data.features.items %}
+            <li class="icon {{ feature.icon }}">
+                <h3>{{feature.name}}</h3>
+                <p>{{feature.description}}</p>
+            </li>
+            {% endfor%}
+        </ul>
+    </div>
+</section>

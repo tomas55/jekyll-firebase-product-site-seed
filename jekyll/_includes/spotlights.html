@@ -1,0 +1,12 @@
+<!-- Two -->
+
+<section id="two" class="wrapper alt style2">
+{% for spotlight in site.data.spotlights%}
+    <section class="spotlight">
+        <div class="image"><img src="images/{{spotlight.image}}" alt="" /></div><div class="content">
+            <h2>{{spotlight.name}}</h2>
+            <p>{{spotlight.description}}</p>
+        </div>
+    </section>
+{% endfor %}
+</section>

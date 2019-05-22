@@ -1,0 +1,18 @@
+- image: pic01.jpg
+  name: Magna primis lobortis<br /> sed ullamcorper
+  description: |
+    Aliquam ut ex ut augue consectetur interdum. 
+    Donec hendrerit imperdiet. 
+    Mauris eleifend fringilla nullam aenean mi ligula.
+- image: pic02.jpg
+  name: Tortor dolore feugiat<br /> elementum magna
+  description: |
+    Aliquam ut ex ut augue consectetur interdum. 
+    Donec hendrerit imperdiet. 
+    Mauris eleifend fringilla nullam aenean mi ligula
+- image: pic03.jpg
+  name: Augue eleifend aliquet<br /> sed condimentum
+  description: |
+    Aliquam ut ex ut augue consectetur interdum. 
+    Donec hendrerit imperdiet. 
+    Mauris eleifend fringilla nullam aenean mi ligula.

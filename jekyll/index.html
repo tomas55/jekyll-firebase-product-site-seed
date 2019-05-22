@@ -1,0 +1,26 @@
+---
+layout: landing
+---
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>{{ site.title }}</h2>
+							<p>{{ site.description | markdownify }}</p>
+							<ul class="actions">
+								<li><a href="#" class="button special">Activate</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+					{% include major.html%}
+
+					{% include spotlights.html %}
+
+				<!-- Three -->
+					{% include features.html %}
+
+					{% comment %}
+					{% include actions.html %}
+					{% endcomment %}
+					{% include email-actions.html %}
