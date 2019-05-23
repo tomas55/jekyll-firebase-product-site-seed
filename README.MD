@@ -1,14 +1,13 @@
 # Purpose
-Setup a simple one page product site with an email registration running on Google firebase and sending emails using Gmail. 
+Setup a simple one page product site with an email registration running on Google firebase and sending emails using Gmail, plus required cookie consent and privacy page for complience.
 > **Note:** Email sending is configured for service accounts which work with GSuite only.   
 
 # Components
-1. Jekyll static website - frontend for the product single page using [HTML5 UP Spectral theme](http://html5up.net) and adapted from https://github.com/arkadianriver/spectral. Can be changed to 
-2. Firebase database for storing signup emails using Firebase sdk on website.  
-3. Firebase functions: one to send confrimation emails on added signup; the second handles confirmation links.
-4. [Nodemailer](http://nodemailer.com) and [Email templates](https://email-templates.js.org) are used to send confirmation mails via Gmail.
-
-
+1. Jekyll static website - frontend for the product single page using [HTML5 UP Spectral theme](http://html5up.net) and adapted from https://github.com/arkadianriver/spectral.
+2. Cookie consent generated from https://cookieconsent.insites.com
+3. Firebase database for storing signup emails using Firebase sdk on website.  
+4. Firebase functions: one to send confrimation emails on added signup; the second handles confirmation links.
+5. [Nodemailer](http://nodemailer.com) and [Email templates](https://email-templates.js.org) are used to send confirmation mails via Gmail.
 
 # Setup 
 ## Firebase project 
@@ -63,9 +62,9 @@ _settings > Project settings > Service accounts_ and click *Generate new private
 
 # Licenses
 
-All code, but Jekyll templates are distributed under MIT license. 
+All code, but Jekyll templates are distributed under [MIT license](../functions/LICENCE). 
 
-See bellow about templates' license (and the [LICENCE.txt](jekyll/LICENCE.txt) in jekyll folder):
+See bellow about templates' license (and the [LICENCE.txt](../jekyll/LICENCE.txt) in jekyll folder):
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 A Jekyll port of the Spectral theme by HTML5 UP.
 Find the original non-jekyll theme at: http://html5up.net/
