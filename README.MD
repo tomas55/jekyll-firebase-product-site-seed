@@ -60,6 +60,17 @@ _settings > Project settings > Service accounts_ and click *Generate new private
 9. You need to give permissions to the service account in GSuite admin. Go to *Google Admin > Security > Settings > Advanced Settings > Manage API client access*, enter Service Account Id (numbers) and API scopes - https://mail.google.com/
 10. Change email templates to your liking in `functions/src/emails/confirm` folder.
 
+# Deployment
+
+Run:
+```
+jekyll build
+
+firebase deploy
+
+```
+
+
 # Licenses
 
 All code, but Jekyll templates are distributed under [MIT license](../functions/LICENCE). 
@@ -72,4 +83,3 @@ Note: @arkadianriver is in no way associated with @n33co
       other than I really like his _style_! get it?
 Below is @n33co's readme from the original pure HTML theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
