@@ -73,13 +73,4 @@ firebase deploy
 
 # Licenses
 
-All code, but Jekyll templates are distributed under [MIT license](../functions/LICENCE). 
-
-See bellow about templates' license (and the [LICENCE.txt](../jekyll/LICENCE.txt) in jekyll folder):
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-A Jekyll port of the Spectral theme by HTML5 UP.
-Find the original non-jekyll theme at: http://html5up.net/
-Note: @arkadianriver is in no way associated with @n33co
-      other than I really like his _style_! get it?
-Below is @n33co's readme from the original pure HTML theme
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+All code, but Jekyll templates are distributed under [MIT license](../functions/LICENCE). Jekyll templates are distributed under [CC v.3](../jekyll/LICENSE.txt)
