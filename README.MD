@@ -24,7 +24,7 @@ Setup a simple one page product site with an email registration running on Googl
 * `jekyll/_daya/spotlights.yml` - spotlights configuration  
 Update `index.html` or layouts to remove unused parts
 
-2. Go to Firebase project settings and setup web access to database https://console.firebase.google.com/u/0/project/race-league/settings/general/
+2. Go to Firebase project settings and setup web access to database https://console.firebase.google.com/u/0/project/<your-project>/settings/general/
 4. Create to `/jekyll/js/firebase.js` and copy configuration to the file:
 ```
  var firebaseConfig = {
